@@ -1,0 +1,205 @@
+.master
+{
+    display: flex;
+    flex-direction:row;
+    margin-bottom:20px;
+}
+.div1
+{
+    background-color: lightblue;
+    width:100px;
+}
+.div2
+{
+    background-color: lightgrey;
+    flex:1;
+}
+.div3
+{
+    background-color: bisque;
+    width:200px;
+}
+
+.master1
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-style:solid;
+}
+.item1
+{
+    background-color: lightgray;
+}
+.item2
+{
+    background-color: beige;
+}
+.item3
+{
+    background-color: bisque;
+}
+
+.master2
+{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:20px;
+    border-style:solid;
+    height:50px;
+}
+.item4
+{
+    background-color: blanchedalmond;
+}
+.item5
+{
+    background-color: aquamarine;
+}
+
+.menu
+{
+    margin-top:40px;
+    display:grid;
+    width:200px;
+    border-style:solid;
+    border-width:1px;
+    border-radius:4px;
+    border-color:gray;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height:30px;
+    margin-bottom:50px;
+}
+.menu-opt1,.menu-opt2,.menu-opt3
+{
+    font-size:medium;
+    display:flex;
+    justify-content:space-between;
+}
+button
+{
+    color:white;
+    background-color: rgb(67, 67, 173);
+    border-radius:10px;
+    border-style:none;
+    padding-right:10px;
+    padding-left:10px;
+}
+.b
+{
+    display:flex;
+    align-items:center;
+}
+
+
+.profile
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    border-style:solid;
+    border-width:1px;
+    border-color:gray;
+    margin-bottom:70px;
+}
+.profile-pic
+{
+
+    width:70px;
+    display:flex;
+    align-items: center;
+    margin-right:10px;
+    padding-left:10px;
+
+}
+.pp
+{
+    width:60px;
+    height:60px;
+    border-radius:50px;
+}
+.second
+{
+
+    line-height:3px;
+    width:200px;
+
+}
+.third
+{
+
+    display:flex;
+    align-items: center;
+    width:88px;
+}
+
+.profile-button
+{
+    color:white;
+    background-color: rgb(67, 67, 173);
+    border-style:none;
+    padding-right:20px;
+    padding-left:20px; 
+    font-weight: bold;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.profile-name
+{
+    font-weight:bold;
+    color:black;
+}
+p
+{
+    color:gray;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+}
+.heading-search
+{
+    display:flex;
+    padding-left:10px;
+    width:600px;
+    border-radius:8px;
+    border-style:none;
+
+}
+.heading-download
+{
+    background-color: purple;
+    border-style:solid;
+    border-width:1px;
+    border-radius:1px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-color:white;
+}
+.heading-middle
+{
+    display:flex;
+    align-items: center; 
+
+}
+.heading-home
+{
+    padding-left:10px;
+    color:white;
+    font-weight:bold;
+
+}
+.heading-button
+{
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+}
