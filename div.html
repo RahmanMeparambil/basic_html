@@ -1,0 +1,260 @@
+<html>
+    <head>
+        <title>div examples</title>
+        <style>
+            .red_square
+            {
+                background-color: red;
+                width:20px;
+                height:20px;
+                display:inline-block;
+            }
+            .green_circle
+            {
+                display:inline-block;
+                background-color: green;
+                width:20px;
+                height:20px;
+                border-radius:10px;
+            }
+
+            .rating
+            {
+                margin-top:15px;
+                width:250px;
+                height:60px;
+                padding-left:10px; 
+                border:1px solid rgb(145, 140, 140);
+                padding-top:10px;
+            }
+
+            .ytmusic
+            {
+                margin-top:15;
+                color:white;
+                background-color: black;
+                padding-left:10;
+                padding-top:10px;
+                padding-bottom:10px;
+                width:400px;
+                height:80;
+            }
+            .ytmusic_heading
+            {
+                padding-top:5px;
+                font-weight:bold;
+                width:300;
+                padding-bottom:10px;
+            }
+            .ytmusic_description
+            {
+                width:300;
+                padding-bottom:10px;
+            }
+
+            .tweet
+            {
+                padding-top:10px;
+                padding-bottom:10px;
+                height: 60px;
+                display:inline-block;
+                margin-top:15;
+                vertical-align: middle;
+                box-shadow:2px 2px 5px rgba(0,0,0,0.4);
+                border-radius:8px
+            }
+            .tweet_pic
+            {
+                margin-left:30px;
+                height:60px;
+                width:60px;
+                border-radius:30px;
+                display:inline-block;
+                vertical-align: middle;
+                margin-right:7px;
+            }
+            .tweet_input
+            {
+                display:inline-block;
+                border-radius:14px;
+                border-style:none;
+                box-shadow:2px 2px 4px rgba(0,0,0,.15);
+                font-size:medium;
+                padding-top:10px;
+                padding-bottom:10px;
+                padding-left:10px;
+                padding-right:10px;
+                margin-right:5px;
+            }
+            .tweet_button
+            {
+                margin-right:30px;
+                display:inline-block;
+                color:rgb(249, 249, 252);
+                background-color: rgb(88, 88, 173);
+                border-style:none;
+                font-weight:bold;
+                border-radius:18px;
+                padding-top:10px;
+                padding-bottom:10px;
+                padding-left:20px;
+                padding-right:20px;
+
+            }
+            .user
+            {
+                height:200px;
+                margin-top:10px;
+                
+            }
+            .user_profile
+            {
+                display:inline-block;
+                margin-right:5px;
+                height:200px;
+                width:130px;
+                box-shadow:2px 2px 4px rgba(0,0,0,.15)
+            }
+            .picture
+            {
+                width:130px;
+                height:120px;
+                object-fit:cover;
+            }
+            .user_name
+            {
+                padding-left:10px;
+                font-weight: bold;
+            }
+            .user_mutualfriend
+            {
+                padding-left:10px;
+                color:rgb(143, 132, 132);
+            }
+            .user_requestbutton
+            {
+                margin-top:8px;
+                margin-left:10px;
+                background-color:rgb(88, 88, 173);
+                border-style:none;
+                border-radius:6px;
+                color:white;
+                padding-top:5px;
+                padding-bottom:5px;
+                padding-left:10px;
+                padding-right:10px;
+            }
+
+            .google
+            {
+                text-align:center;
+            }
+            .google_logo
+            {
+                width:200px;
+                height:50px;
+                object-fit:contain;
+                margin-bottom:10px;
+                margin-top:50px;
+            }
+            .google_search
+            {
+                width:500px;
+                height:30px;
+                padding-left:20px;
+                border-radius:12px;
+                border-style:none;
+                box-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+            }
+            .google_button
+            {
+                padding-left:20px;
+                padding-right:20px;
+                margin-top:10px;
+            }
+  
+        </style>
+
+    </head>
+    <body>
+        <div class="red_square"></div>
+        <div class="green_circle"></div>
+
+        <div class="rating">
+            <div class="rating_text">
+                satisfied with our service?
+            </div>
+            <div class="rating_buttons">
+                <button>yes</button>
+                <button>no</button>
+            </div>
+        </div>
+
+        <div class="ytmusic">
+            <div class="ytmusic_heading">
+                Install Youtube Music
+            </div>
+            <div class="ytmusic_description">
+                Add Youtube Music to your desktop for quick and easy access
+            </div>
+        </div>
+
+        <div class="tweet">
+            <img class = "tweet_pic" src="images/6-08-25t130055z_947369113_d1betxlzetaa_rtrmadp_3_people-actors-highestpaid.jpg">
+            <input class="tweet_input" type="text" placeholder="What's happening?">
+            <button class="tweet_button">Tweet</button>
+        </div>
+
+        <div class="user">
+            <div class="user_profile">
+                <div class="user_pic">
+                    <img class ="picture" src="images/kabib.jpg" >
+                </div>
+                <div class="user_name">Kabib</div>
+                <div class="user_mutualfriend">2 mutual friends</div>
+                <div ><button class=user_requestbutton>Add Friend</button></div>
+            </div>
+            <div class="user_profile">
+                <div class="user_pic">
+                    <img class ="picture" src="images/islam_mackachev.jpg" >
+                </div>
+                <div class="user_name">Islam </div>
+                <div class="user_mutualfriend">3 mutual friends</div>
+                <div ><button class=user_requestbutton>Add Friend</button></div>
+            </div>
+            <div class="user_profile">
+                <div class="user_pic">
+                    <img class ="picture" src="images/kamzat.webp" >
+                </div>
+                <div class="user_name">Kamzat</div>
+                <div class="user_mutualfriend">7 mutual friends</div>
+                <div ><button class=user_requestbutton>Add Friend</button></div>
+            </div>
+            <div class="user_profile">
+                <div class="user_pic">
+                    <img class ="picture" src="images/argentine-football-star-lionel-messi.jpg" >
+                </div>
+                <div class="user_name">Messi</div>
+                <div class="user_mutualfriend">3 mutual friends</div>
+                <div ><button class=user_requestbutton>Add Friend</button></div>
+            </div>
+        </div>
+        <div class="google">
+            <div>
+                <img class="google_logo"src="images/download.png">
+            </div>
+           
+            
+            <div>
+                <input class="google_search" type="text" placeholder="Search Google or type a URL">
+            </div>
+            
+            <div>
+                <button class="google_button">Google Search</button>
+                <button class="google_button">I'm Feeling Lucky</button>
+            </div>
+
+
+        </div>
+    </body>
+</html>
