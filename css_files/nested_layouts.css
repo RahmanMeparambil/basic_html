@@ -108,13 +108,11 @@ button
 }
 .profile-pic
 {
-
     width:70px;
     display:flex;
     align-items: center;
     margin-right:10px;
     padding-left:10px;
-
 }
 .pp
 {
@@ -124,10 +122,8 @@ button
 }
 .second
 {
-
     line-height:3px;
     width:200px;
-
 }
 .third
 {
@@ -154,10 +150,7 @@ button
     font-weight:bold;
     color:black;
 }
-p
-{
-    color:gray;
-}
+
 
 .heading
 {
@@ -170,7 +163,9 @@ p
     display:flex;
     padding-left:10px;
     width:600px;
-    border-radius:8px;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-radius:16px;
     border-style:none;
 
 }
@@ -203,3 +198,45 @@ p
     display: flex;
     align-items: center;
 }
+
+.flex-box
+{
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+}
+.one
+{
+    display:flex;
+    justify-content: center;
+    background-color: pink;
+    width:100px;
+}
+.item1
+{
+    display:inline-block;
+    background-color: black;
+    color:white;
+}
+.two
+{
+    width:300px;
+    background-color: rgb(157, 223, 223);
+}
+.two-one
+{
+    display:flex;
+    justify-content: space-between;
+    color:black;
+}
+.two-one-line
+{
+    color:white;
+    background-color: black;
+    margin-top:0;
+}
+.two-line
+{
+    margin:0;
+}
+
