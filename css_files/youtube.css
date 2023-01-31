@@ -1,0 +1,51 @@
+.header
+{
+    display:flex;
+    flex-direction:row;
+    height:30px;
+    position:fixed;
+    right:0px;
+    left:0px;
+    top:0px;
+}
+.header-logo
+{
+    width:200px;
+}
+.header-input
+{
+    flex:1;
+}
+.header-tools
+{
+    width:200px;
+}
+
+.sidebar
+{
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+    top:30px;
+    bottom:0px;
+    left:0px;
+}
+.contents
+{
+    display:grid;
+    grid-template-columns:300px 300px 300px 300px;
+    background-color: lightskyblue;
+    column-gap:20px;
+    row-gap:20px;
+}
+.contents div
+{
+    width:300px;
+    height:200px;
+}
+
+body
+{
+    padding-left:100px;
+    padding-top:50px;
+}
