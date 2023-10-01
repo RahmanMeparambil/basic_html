@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socialweb</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav>
+        <div class="nav-left"> 
+            <i class="fa-solid fa-house"></i>
+
+            <ul>
+                <li class=  "dropdown-notifications" >
+                    <button class="notifications-button">
+                        <i class="fa-regular fa-bell"></i>
+                    </button>
+                    <div class="menu-notifications">
+                        no notifications
+                    </div>
+                </li>
+                <li class="dropdown-messages">
+                    <button >
+                        <i class="fa-regular fa-message"></i>
+                    </button>
+                    <div class="menu-messages">
+                        no messages 
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="profile-pic">
+                <img src="images/member-1.png" >
+                <div class="profile-menu">
+                    <ul>
+                        <li><a href="">Settings</a></li>
+                        <li><a href="">DarkMode</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href=""><img src="images/news.png" alt="">Feeds</a>
+                <a href=""><img src="images/friends.png" alt="">Friends</a>
+                <a href=""><img src="images/group.png" alt="">Group</a>
+                <a href=""><img src="images/marketplace.png" alt="">MarketPlace</a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/member-1.png" alt="">
+                    <div>
+                        <p>Emma Watson</p>
+                        <small>public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="whats on your mind ?"></textarea>
+                    <div class="add-post-link">
+                        <a href=""><i class="fa-regular fa-image"></i>Image</a>
+                        <a href=""><i class="fa-regular fa-file-video"></i>Video</a>
+                        <a href=""><i class="fa-regular fa-face-smile"></i>Feelings</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="images/member-2.png" alt="">
+                    <div>
+                        <p>JacksonMitsubish</p>
+                        <span>June 24 2023, 13:40</span>
+                    </div>
+                </div>
+                <p class="post-text">Embracing the Majesty of the Mountains</p>
+                <img src="images/background.jpg" alt="" class="post-image">
+            </div>
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like.png" alt=""></div>
+                    <div><img src="images/comments.png" alt=""></div>
+                    <div><img src="images/share.png" alt=""></div>
+                </div>
+            </div>
+            <button class="loadmore-btn">Load More</button>
+        </div>
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Messages</h4>
+                <a href="Hide Chat">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <!-- <div class="online">
+                    <img src="images/member-2.png" alt="">
+                </div> -->
+                <p>Jackson Aston <span>(2)</span></p>
+            </div>
+            <div class="online-list">
+                <!-- <div class="online">
+                    <img src="images/member-3.png" alt="">
+                </div> -->
+                <p>Ison Patty <span>(1)</span></p>
+                <div class="online">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
